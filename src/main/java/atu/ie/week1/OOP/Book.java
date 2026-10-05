@@ -31,11 +31,7 @@ public class Book
         this.status = BookStatus.AVAILABLE;
     }
 
-    public enum BookStatus
-    {
-        AVAILABLE,
-        ON_LOAN
-    }
+
 
     public String getTitle() {
         return title;

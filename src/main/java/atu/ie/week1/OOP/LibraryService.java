@@ -1,6 +1,7 @@
 package atu.ie.week1.OOP;
 
-    public class LibraryService {
+public class LibraryService {
+
         private static final int MAX_LOAN_DAYS = 14;
         public void loanBook(Book book, int loanDays) {
             if (book == null) {
@@ -13,14 +14,15 @@ package atu.ie.week1.OOP;
             }
             book.borrowBook();
         }
-    }
 
-    public void returnBook(Book) {
+
+
+    public void returnBook(Book book){
         if (book == null) {
-            throw new IllegalArgumentException("Book must not be null");
+            throw new IllegalArgumentException("book must not be null");
         }
         else{
             book.returnBook();
         }
     }
-
+}

@@ -1,4 +1,7 @@
 package atu.ie.week1.OOP;
 
-public enum Status {
+public enum BookStatus {
+    AVAILABLE,
+    ON_LOAN
 }
+

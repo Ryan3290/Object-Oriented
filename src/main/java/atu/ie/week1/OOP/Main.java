@@ -5,6 +5,7 @@ package atu.ie.week1.OOP;
 public class Main {
     public static void main(String[] args)
     {
+        public static void main(String[] args) {
         Book first = new Book("Dune", "Frank Herbert", 412);
         Book second = new Book("Clean Code", "Robert C. Martin", 464);
         LibraryService service = new LibraryService();
